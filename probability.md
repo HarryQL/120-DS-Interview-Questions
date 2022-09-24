@@ -36,7 +36,7 @@
   - 12! / (4!)^3 / 3!
 
 #### 10. Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.
-  - the probability of a hash collision: 1-(10!/10^10)
+  - the probability of a hash collision: 1-(10!/10^10) --- 10 ditinguishable balls each in different bins
   - the expected number of hash collisions: 10(1 - (1-1/10)^10)
     - [Quora Reference](https://www.quora.com/Your-hash-function-assigns-each-object-to-a-number-between-1-10-each-with-equal-probability-With-10-objects-what-is-the-probability-of-a-hash-collision-What-is-the-expected-number-of-hash-collisions-What-is-the-expected-number-of-hashes-that-are-unused)
   - the expected number of hashes that are unused: 10*(9/10)^10
@@ -50,9 +50,11 @@
 
 #### 13. On a dating site, users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives, what is the probability that they form a match?
   - 24C5*(1+5(24-5))/24C5*24C5 = 4/1771
+  - https://math.stackexchange.com/questions/4202887/what-is-the-probability-that-they-form-a-match
 
 #### 14. A lazy high school senior types up application and envelopes to n different colleges, but puts the applications randomly into the envelopes. What is the expected number of applications that went to the right college?
   - 1
+  - https://www.quora.com/A-lazy-high-school-senior-types-up-an-application-and-envelopes-to-n-different-colleges-but-puts-the-applications-randomly-into-the-envelopes-What-is-the-expected-number-of-applications-that-went-to-the-right-college
 
 #### 15. Let’s say you have a very tall father. On average, what would you expect the height of his son to be? Taller, equal, or shorter? What if you had a very short father?
   - Shorter. Regression to the mean
@@ -62,7 +64,7 @@
   - [Quora Reference](https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-two-heads-in-a-row)
 
 #### 17. Let’s say we play a game where I keep flipping a coin until I get heads. If the first time I get heads is on the nth coin, then I pay you 2n-1 dollars. How much would you pay me to play this game?
-  - less than $3
+  - less than $3 (https://en.wikipedia.org/wiki/St._Petersburg_paradox)
   - [Quora reference](https://www.quora.com/I-will-flip-a-coin-until-I-get-my-first-heads-I-will-then-pay-you-2-n-1-where-n-is-the-total-number-of-coins-I-flipped-How-much-would-you-pay-me-to-play-this-game-You-can-only-play-once)
 
 #### 18. You have two coins, one of which is fair and comes up heads with a probability 1/2, and the other which is biased and comes up heads with probability 3/4. You randomly pick coin and flip it twice, and get heads both times. What is the probability that you picked the fair coin?
