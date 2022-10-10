@@ -2,6 +2,12 @@
 
 #### 1. (Given a Dataset) Analyze this dataset and tell me what you can learn from it.
   - Typical data cleaning and visualization
+  - The best practices for data cleaning include:
+
+1 Removing unwanted and duplicate data
+2 Fixing structural errors such as typos, inconsistent capitalization, and more
+3 Handling the missing values and data
+4 Filtering outliers to avoid misleading results
 
 #### 2. What is R2? What are some other metrics that could be better than R2 and why?
   - goodness of fit measure. variance explained by the regression / total variance
