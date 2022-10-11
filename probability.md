@@ -20,7 +20,8 @@
   - more than two standard deviations
 
 #### 6. Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
-  - Plug in the value to the CDF of the same random variable
+  - [Plug in the value to the CDF of the same random variable](https://thiagoscarelli.github.io/random-draws-from-any-distribution.html)
+  - generate random draws u_i from the standard [0, 1] uniform and x_i  = inverse CDF pf distribution (u_i).
 
 #### 7. A certain couple tells you that they have two children, at least one of which is a girl. What is the probability that they have two girls?
   - gg, gb, bg --> 1/3
