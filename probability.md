@@ -60,6 +60,15 @@
   - Shorter. Regression to the mean
 
 #### 16. What’s the expected number of coin flips until you get two heads in a row? What’s the expected number of coin flips until you get two tails in a row?
+  - a: expected number of rolls until HH
+    b: expected number of rolls until HH after rolling a H
+
+    a = 0.5(b+1) + 0.5(a+1) = 1+0.5b+0.5a 
+    b = 0.5(1) + 0.5(1+a) = 1 + 0.5a
+
+    a = 6
+    b = 4
+
   - x = 0.25 * 2 + 0.25 * (x + 2) + 0.5 * (x + 1) --> x = 6
   - [Quora Reference](https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-two-heads-in-a-row)
 
