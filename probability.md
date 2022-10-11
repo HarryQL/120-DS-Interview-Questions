@@ -49,7 +49,7 @@
   - 100+60-20=140
 
 #### 13. On a dating site, users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives, what is the probability that they form a match?
-  - 24C5*(1+5(24-5))/24C5*24C5 = 4/1771
+  - (24C5 + 24C4 * 20 * 19)/24C5*24C5 = 4/1771
   - https://math.stackexchange.com/questions/4202887/what-is-the-probability-that-they-form-a-match
 
 #### 14. A lazy high school senior types up application and envelopes to n different colleges, but puts the applications randomly into the envelopes. What is the expected number of applications that went to the right college?
